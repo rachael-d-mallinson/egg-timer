@@ -1,0 +1,13 @@
+@font-face {
+    font-family: poppins-regular;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppins-semibold;
+    src: url(./fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: playfair-semibold;
+    src: url(./fonts/Playfair_Display/PlayfairDisplay-SemiBold.ttf);
+}

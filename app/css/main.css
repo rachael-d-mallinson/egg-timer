@@ -1,0 +1,119 @@
+html, head, body {
+    position: absolute;
+}
+
+h1, h2, h3 {
+    color:#FFF2DE;
+    font-family: playfair-semibold, 'Times New Roman', Times, serif;
+    font-size: 183px;
+}
+
+h2 {
+    font-family: poppins-semibold, 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 100px;
+}
+
+p {
+    color:white;
+    font-family: poppins-regular, 'Times New Roman', Times, serif;
+    font-size: 41px;
+}
+
+#app-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 1920px;
+    width: 1080px;
+
+}
+
+.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.inactive {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+#load-page {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+
+    background-image: url(../img/load-page.png);
+}
+
+#options-page {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+
+    background-color:#C39681;
+}
+    /* .options-button{
+        top: ;
+    } */
+    #options-title{
+        position: absolute;
+        top: 333px;
+        left: 135px;
+    }
+    #options-subtitle{
+        position: absolute;
+        font-size: 58px;
+        top: 644px;
+        left: 135px;
+        color:white;
+    }
+
+    /* need directions */
+
+    #runny-button{
+        position: absolute;
+        top: 1272px;
+        left: 171px;
+        width: 148px;
+        height: 154px;
+        background-image: url(../img/runny-button.png);
+    }
+    #soft-button{
+        position: absolute;
+        top: 1257px;
+        left: 427px;
+        width: 148px;
+        height: 169px;
+        background-image: url(../img/soft-button.png);
+    }
+    #hard-button{
+        position: absolute;
+        top: 1272px;
+        left: 692px;
+        width: 148px;
+        height: 154px;
+        background-image: url(../img/hard-button.png);
+    }
+
+
+#timer-page,#end-page {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color:#E8C5A9;
+}
